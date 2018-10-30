@@ -1,6 +1,5 @@
 title: Cours de T1
 logo: https://www.bordeaux-inp.fr/sites/default/files/upload/page-edito/inp/img/logos/logo.em-bxinp.jpg
 description: Alexis Bagarre - Cours 2018 / 2019 - Télécommunications 1A
-show_downloads: false
-google_analytics:
+show_downloads: true
 theme: jekyll-theme-minimal
