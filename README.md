@@ -4,5 +4,5 @@
 
 - ### Probabilités
 
-  [1. Introduction](./PROBA/HTML/1. Intro.html).
+  [1. Introduction](/PROBA/HTML/1. Intro.html)
 
