@@ -2,6 +2,10 @@
 ---
 ## Cours de T1 - 2018 / 2019
 
+- ### Outils mathématiques
+
+  [Nombres complexes](./MATHS/HTML/1.Nombres_complexes.html)
+
 - ### Probabilités
 
   [Introduction](./PROBA/HTML/1.Intro.html)
