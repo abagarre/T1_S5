@@ -16,6 +16,8 @@
 
   [Rappels de probabilités](./PROCESSUS/HTML/1.Probas.html)
 
+  [Processus](./PROCESSUS/HTML/2.Processus.html)
+
 - ### Réseaux
 
   [Introduction](./RESEAUX/HTML/1.Intro.html)
