@@ -22,5 +22,9 @@
 
   [Introduction](./RESEAUX/HTML/1.Intro.html)
 
+  [Couche physique](./RESEAUX/HTML/2.Couche_physique.html)
+
+  [Couche liaison de données](./RESEAUX/HTML/3.Couche_liaison.html)
+
 - ### Systèmes d'exploitation
 
