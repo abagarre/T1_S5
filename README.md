@@ -1,3 +1,5 @@
+---
+
 - ### Outils mathématiques
 
   [Nombres complexes](./MATHS/HTML/1.Nombres_complexes.html)
@@ -8,7 +10,7 @@
 
   [Variables aléatoires discrètes](./PROBA/HTML/2.Variables_aleatoires_discretes.html)
 
-  [Variables aléatoires à densité](./PROBA/HTML/2.Variables_aleatoires_a_densite.html)
+  [Variables aléatoires à densité](./PROBA/HTML/3.Variables_aleatoires_a_densite.html)
 
 - ### Processus aléatoires
 
