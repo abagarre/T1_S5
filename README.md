@@ -8,11 +8,17 @@
 
   [Variables aléatoires discrètes](./PROBA/HTML/2.Variables_aleatoires_discretes.html)
 
+  [Variables aléatoires à densité](./PROBA/HTML/2.Variables_aleatoires_a_densite.html)
+
 - ### Processus aléatoires
 
   [Rappels de probabilités](./PROCESSUS/HTML/1.Probas.html)
 
   [Processus aléatoire](./PROCESSUS/HTML/2.Processus.html)
+
+- ### Programmation impérative
+
+  [Introduction au C](./PROGRAMMATION/HTML/1.Intro_C.html)
 
 - ### Réseaux
 
