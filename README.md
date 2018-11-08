@@ -1,7 +1,3 @@
-#### Alexis Bagarre
----
-## Cours de T1 - 2018 / 2019
-
 - ### Outils mathématiques
 
   [Nombres complexes](./MATHS/HTML/1.Nombres_complexes.html)
