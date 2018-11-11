@@ -32,3 +32,9 @@
 
 - ### Systèmes d'exploitation
 
+  [Ordinateur](./SYSEXP/HTML/Ordinateur.html)
+
+  [Shell Bash](./SYSEXP/HTML/ShellBash.html)
+
+  [Commandes bash](./SYSEXP/HTML/CommandesBash.html)
+
