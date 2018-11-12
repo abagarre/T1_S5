@@ -29,7 +29,7 @@
   - Exécute les commandes
   - Écrit les résultat sur son terminal d’attache
 - Bash définit un langage appelé bash
-- Un **mot bash** est formé de caractères séparés par des <u>blancs</u> (sauf : `; & && | || ( )` **`**)
+- Un **mot bash** est formé de caractères séparés par des <u>blancs</u> (sauf : `; & && | || ( )` et **`**)
   - Sensible à la casse
   - Des caractères entre `“ ”` ou `‘ ’` sont considérés comme 1 seul mot
     - `‘ ’` : désactive l’interprétation dans toute la chaîne

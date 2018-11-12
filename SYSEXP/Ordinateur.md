@@ -43,7 +43,7 @@ Le processeur identifie une instruction par un numéro
 
 Il possède des variables internes appelées registres
 
-- `PC` (*Program Counter*) : adrexitesse de l’instruction suivante
+- `PC` (*Program Counter*) : adresse de l’instruction suivante
 
 ---
 
