@@ -6,7 +6,7 @@
 
 ## Introducción
 
-Gracias a los avances tecnológicos, hoy tenemos muchos medios para moverse entre lugares, en tiempos cortes. Sin embargo, el mundo del transporte se enfrenta a nuevos obstáculos : la creación de transportes mas ecológicos, mas rápidos o mas seguros por ejemplo. Entonces, para satisfacer estos problemas, podemos preguntarnos sobre los transportes del futuro : como van a evolucionar, cuales serán los nuevos medios de transporte, como los transportes que conocemos cambiaran, si algunos desaparecerán, etc. Así hemos separado los transportes en dos partes : los transportes individuales y públicos. 
+Gracias a los avances tecnológicos, hoy tenemos muchos medios para moverse, en tiempos cortes. Sin embargo, el mundo del transporte se enfrenta a nuevos obstáculos : la creación de transportes mas ecológicos, mas rápidos o mas seguros por ejemplo. Entonces, para satisfacer estos problemas, podemos preguntarnos sobre los transportes del futuro : como van a evolucionar, cuales serán los nuevos medios de transporte, como los transportes que conocemos cambiaran, si algunos desaparecerán, etc. Así hemos separado los transportes en dos partes : los transportes individuales y públicos. 
 
 ---
 
@@ -18,9 +18,9 @@ Primero, los transportes individuales. Hoy, el medio de transporte lo mas utiliz
 
 Electricidad es un medio que se ha bien desarrollado en nuestra sociedad. Beneficio : no emisión de gases de efecto invernadero. Inconvenientes : la autonomía y la producción y el reciclaje de las baterías causa gran problemas medioambientales. Pero a pesar de ello, los coches eléctricos se desarrollan mucho, porque han encontrado una clientela quien ha visto un interés en esto medio, por ejemplo para circular en ciudades, y el aumento de la cantidad de personas viviendo en ciudades influye en las ventas.
 
-Un sistema que promete mucho es el hidrógeno. Funciona quasi de la misma manera que un coche eléctrico, la diferencia reside en el almacenamiento de la energía. Aquí, no se trata de batería sino de reserva que contiene el hidrógeno a bajo presión que alimenta una pila de combustible, quien después transforma en energía eléctrica.
+Un sistema que promete mucho es el hidrógeno. Funciona casi de la misma manera que un coche eléctrico, la diferencia reside en el almacenamiento de la energía. Aquí, no se trata de batería sino de reserva que contiene el hidrógeno a bajo presión que alimenta una pila de combustible, quien después transforma en energía eléctrica.	
 
-Un beneficio del hidrógeno en comparación a un coche completamente eléctrico es el tiempo de carga. Solamente algunas minutas. Ademas, es un medio no contaminante. 
+Un beneficio del hidrógeno en comparación a un coche completamente eléctrico es el tiempo de carga. Solamente algunas minutas. Ademas, es un medio no contaminante en su utilización. 
 
 Sin embargo, el problema reside en la producción de hidrógeno. Necesita mucha energía. Encontrar hidrógeno es fácil, pero extraerlo es mucho mas complicado, y se hace por el momento a partir de recurso fósil. Entonces perdemos el beneficio ecológico. Una producción mas ecológica es posible pero costa mucho, pero los estudios en este sistema deberían permitir un aumento del rendimiento de producción.
 
