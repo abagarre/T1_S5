@@ -12,9 +12,9 @@ Gracias a los avances tecnológicos, hoy tenemos muchos medios para moverse, en 
 
 ## Transportes individuales
 
-Primero, los transportes individuales. Hoy, el medio de transporte lo mas utilizado es el coche. En términos de respeto del medio ambiente y de seguridad, hace un malo marcador. Entonces, los constructores intentan desarrollar sistemas para mejorar estos puntos.
+Primero, los transportes individuales. Hoy, el medio de transporte lo mas utilizado es el coche. En términos de respeto del medio ambiente y de seguridad, es uno de los peores. Entonces, los constructores intentan desarrollar sistemas para mejorar estos puntos.
 
-##### Los coches electricos
+##### Los coches eléctricos
 
 Electricidad es un medio que se ha bien desarrollado en nuestra sociedad. Beneficio : no emisión de gases de efecto invernadero. Inconvenientes : la autonomía y la producción y el reciclaje de las baterías causa gran problemas medioambientales. Pero a pesar de ello, los coches eléctricos se desarrollan mucho, porque han encontrado una clientela quien ha visto un interés en esto medio, por ejemplo para circular en ciudades, y el aumento de la cantidad de personas viviendo en ciudades influye en las ventas.
 
@@ -30,7 +30,7 @@ Entonces, este medio no parece hoy como una solución para el publico, sino una 
 
 ##### Los coches autónomos
 
-Otra avance son los coches autónomos. Con muchos sensores, estos coches son capaz de conducir de manera autónoma, sin intervención del conductor. Hoy algunas coches autónomas existen, si embargo por una utilización global, el sistema puede ponerse en marcha unicamente en en situaciones particulares. Hablamos mas de conducción asistida. En el futuro, podrán ser completamente autónomos. Eso trae muchos cambios en la utilización del coche.
+Otra avance son los coches autónomos. Con muchos sensores, estos coches son capaz de conducir de manera autónoma, sin intervención del conductor. Hoy algunas coches autónomas existen, sis embargo por una utilización global, el sistema puede ponerse en marcha unicamente en en situaciones particulares. Hablamos mas de conducción asistida. En el futuro, podrán ser completamente autónomos. Eso trae muchos cambios en la utilización del coche.
 
 Existe 5 niveles de conducción autónoma : nivel 1, vehículos que incorporan sistemas de automatización que facilitan el control del desplazamiento ; nivel 2, piloto automático temporal para autopistas o sistema de aparcamiento asistido ; nivel 3, control del desplazamiento longitudinal y lateral, y detección de objetos y eventualidades que afectan a la conducción para responder de forma autónoma ante ellos (el conductor puede ser solicitado para intervenir) ; nivel 4, presencia de un sistema de respaldo que toma el control y sostiene la conducción automática en caso de error o si las condiciones de funcionamiento desaparecen, pero en caso de condiciones que hagan imposible la conducción, el vehículo se detiene ; nivel 5, conducción completamente sola en cualquier condiciones. Hoy, los coches en venta las mas avanzadas llegan al nivel 2, aunque el nivel 3 existe para pocos modelos. El objetivo es, obviamente, de poner en circulación vehículos de nivel 5.
 
