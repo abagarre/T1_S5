@@ -58,7 +58,12 @@
   - `kill -9` pour tuer le processus
 - `wait` : attend la fin de tous les fils
   - Avec argument : attend la fin des processus passés en argument
-- 
+
+---
+
+### Variables et processus
+
+- **Variable d’environnement** : variable exportée
 
 
 
