@@ -44,7 +44,7 @@
 
 - ### Techniques d’optimisation
 
-  [Systèmes linéaires](./OPTIMISATION/HTML/1.SystemeLinaire.html)
+  [Systèmes linéaires](./OPTIMISATION/HTML/1.SystemeLineaire.html)
 
   [Interpolation](./OPTIMISATION/HTML/3.Interpolation.html)
 
@@ -52,6 +52,6 @@
 
   [Equations non linéaires](./OPTIMISATION/HTML/5.EqNonLineaires.html)
 
-  [Système d’équations non linéaires](./OPTIMISATION/HTML/.6.SysEqNonLineaires.html)
+  [Système d’équations non linéaires](./OPTIMISATION/HTML/6.SysEqNonLineaires.html)
 
   [Extrema](./OPTIMISATION/HTML/7.Extrema.html)
