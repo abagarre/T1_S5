@@ -42,3 +42,16 @@
 
   [Processus](./SYSEXP/HTML/Processus.html)
 
+- ### Techniques d’optimisation
+
+  [Systèmes linéaires](./OPTIMISATION/HTML/1.SystemeLinaire.html)
+
+  [Interpolation](./OPTIMISATION/HTML/3.Interpolation.html)
+
+  [Approximation](./OPTIMISATION/HTML/4.Approximation.html)
+
+  [Equations non linéaires](./OPTIMISATION/HTML/5.EqNonLineaires.html)
+
+  [Système d’équations non linéaires](./OPTIMISATION/HTML/.6.SysEqNonLineaires.html)
+
+  [Extrema](./OPTIMISATION/HTML/7.Extrema.html)
