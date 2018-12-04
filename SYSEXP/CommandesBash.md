@@ -20,6 +20,15 @@ man arg 	# affiche l'aide de l'argument
 read args	# lit les arguments sur l'entrée standard et les renvoie sur la 			sortie standard
 ```
 
+```bash
+head -n	<fic>	# lit les n premières lignes
+tail -n	<fic>	# lit les n dernières lignes
+```
+
+```bash
+wc [-l] [-w] [-c] <fic>		# compte le nombre de lignes / mot / caractères
+```
+
 
 
 ------
