@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
-<title>Ordinateur</title><link href='night/mermaid.dark.css' rel='stylesheet' type='text/css' />
+<title>Signaux</title><link href='night/mermaid.dark.css' rel='stylesheet' type='text/css' />
 <link href='night/codeblock.dark.css' rel='stylesheet' type='text/css' />
 <link href='night/sourcemode.dark.css' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; }
 html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
@@ -148,6 +148,79 @@ iframe { max-width: 100%; width: 100%; border: none; }
 .highlight td, .highlight tr { border: 0px; }
 
 
+.CodeMirror { height: auto; }
+.CodeMirror.cm-s-inner { background: inherit; }
+.CodeMirror-scroll { overflow-y: hidden; overflow-x: auto; z-index: 3; }
+.CodeMirror-gutter-filler, .CodeMirror-scrollbar-filler { background-color: rgb(255, 255, 255); }
+.CodeMirror-gutters { border-right: 1px solid rgb(221, 221, 221); background: inherit; white-space: nowrap; }
+.CodeMirror-linenumber { padding: 0px 3px 0px 5px; text-align: right; color: rgb(153, 153, 153); }
+.cm-s-inner .cm-keyword { color: rgb(119, 0, 136); }
+.cm-s-inner .cm-atom, .cm-s-inner.cm-atom { color: rgb(34, 17, 153); }
+.cm-s-inner .cm-number { color: rgb(17, 102, 68); }
+.cm-s-inner .cm-def { color: rgb(0, 0, 255); }
+.cm-s-inner .cm-variable { color: rgb(0, 0, 0); }
+.cm-s-inner .cm-variable-2 { color: rgb(0, 85, 170); }
+.cm-s-inner .cm-variable-3 { color: rgb(0, 136, 85); }
+.cm-s-inner .cm-string { color: rgb(170, 17, 17); }
+.cm-s-inner .cm-property { color: rgb(0, 0, 0); }
+.cm-s-inner .cm-operator { color: rgb(152, 26, 26); }
+.cm-s-inner .cm-comment, .cm-s-inner.cm-comment { color: rgb(170, 85, 0); }
+.cm-s-inner .cm-string-2 { color: rgb(255, 85, 0); }
+.cm-s-inner .cm-meta { color: rgb(85, 85, 85); }
+.cm-s-inner .cm-qualifier { color: rgb(85, 85, 85); }
+.cm-s-inner .cm-builtin { color: rgb(51, 0, 170); }
+.cm-s-inner .cm-bracket { color: rgb(153, 153, 119); }
+.cm-s-inner .cm-tag { color: rgb(17, 119, 0); }
+.cm-s-inner .cm-attribute { color: rgb(0, 0, 204); }
+.cm-s-inner .cm-header, .cm-s-inner.cm-header { color: rgb(0, 0, 255); }
+.cm-s-inner .cm-quote, .cm-s-inner.cm-quote { color: rgb(0, 153, 0); }
+.cm-s-inner .cm-hr, .cm-s-inner.cm-hr { color: rgb(153, 153, 153); }
+.cm-s-inner .cm-link, .cm-s-inner.cm-link { color: rgb(0, 0, 204); }
+.cm-negative { color: rgb(221, 68, 68); }
+.cm-positive { color: rgb(34, 153, 34); }
+.cm-header, .cm-strong { font-weight: 700; }
+.cm-del { text-decoration: line-through; }
+.cm-em { font-style: italic; }
+.cm-link { text-decoration: underline; }
+.cm-error { color: red; }
+.cm-invalidchar { color: red; }
+.cm-constant { color: rgb(38, 139, 210); }
+.cm-defined { color: rgb(181, 137, 0); }
+div.CodeMirror span.CodeMirror-matchingbracket { color: rgb(0, 255, 0); }
+div.CodeMirror span.CodeMirror-nonmatchingbracket { color: rgb(255, 34, 34); }
+.cm-s-inner .CodeMirror-activeline-background { background: inherit; }
+.CodeMirror { position: relative; overflow: hidden; }
+.CodeMirror-scroll { height: 100%; outline: 0px; position: relative; box-sizing: content-box; background: inherit; }
+.CodeMirror-sizer { position: relative; }
+.CodeMirror-gutter-filler, .CodeMirror-hscrollbar, .CodeMirror-scrollbar-filler, .CodeMirror-vscrollbar { position: absolute; z-index: 6; display: none; }
+.CodeMirror-vscrollbar { right: 0px; top: 0px; overflow: hidden; }
+.CodeMirror-hscrollbar { bottom: 0px; left: 0px; overflow: hidden; }
+.CodeMirror-scrollbar-filler { right: 0px; bottom: 0px; }
+.CodeMirror-gutter-filler { left: 0px; bottom: 0px; }
+.CodeMirror-gutters { position: absolute; left: 0px; top: 0px; padding-bottom: 30px; z-index: 3; }
+.CodeMirror-gutter { white-space: normal; height: 100%; box-sizing: content-box; padding-bottom: 30px; margin-bottom: -32px; display: inline-block; }
+.CodeMirror-gutter-wrapper { position: absolute; z-index: 4; background: 0px 0px !important; border: none !important; }
+.CodeMirror-gutter-background { position: absolute; top: 0px; bottom: 0px; z-index: 4; }
+.CodeMirror-gutter-elt { position: absolute; cursor: default; z-index: 4; }
+.CodeMirror-lines { cursor: text; }
+.CodeMirror pre { border-radius: 0px; border-width: 0px; background: 0px 0px; font-family: inherit; font-size: inherit; margin: 0px; white-space: pre; word-wrap: normal; color: inherit; z-index: 2; position: relative; overflow: visible; }
+.CodeMirror-wrap pre { word-wrap: break-word; white-space: pre-wrap; word-break: normal; }
+.CodeMirror-code pre { border-right: 30px solid transparent; width: fit-content; }
+.CodeMirror-wrap .CodeMirror-code pre { border-right: none; width: auto; }
+.CodeMirror-linebackground { position: absolute; left: 0px; right: 0px; top: 0px; bottom: 0px; z-index: 0; }
+.CodeMirror-linewidget { position: relative; z-index: 2; overflow: auto; }
+.CodeMirror-wrap .CodeMirror-scroll { overflow-x: hidden; }
+.CodeMirror-measure { position: absolute; width: 100%; height: 0px; overflow: hidden; visibility: hidden; }
+.CodeMirror-measure pre { position: static; }
+.CodeMirror div.CodeMirror-cursor { position: absolute; visibility: hidden; border-right: none; width: 0px; }
+.CodeMirror div.CodeMirror-cursor { visibility: hidden; }
+.CodeMirror-focused div.CodeMirror-cursor { visibility: inherit; }
+.cm-searching { background: rgba(255, 255, 0, 0.4); }
+@media print {
+  .CodeMirror div.CodeMirror-cursor { visibility: hidden; }
+}
+
+
 .cm-s-inner .cm-variable, .cm-s-inner .cm-operator, .cm-s-inner .cm-property { color: rgb(184, 191, 198); }
 .cm-s-inner .cm-keyword { color: rgb(200, 143, 208); }
 .cm-s-inner .cm-tag { color: rgb(125, 244, 106); }
@@ -231,12 +304,12 @@ footer.ty-footer { border-top: 1px solid rgb(85, 85, 85); }
 </style>
 </head>
 <body class='typora-export' >
-<div  id='write'  class = 'is-node'><h5 style="text-align: center"> SYSTEME D'EXPLOITATION </h5><hr /><h2><a name='header-n3' class='md-header-anchor '></a><strong>Ordinateur</strong></h2><hr /><h3><a name='header-n5' class='md-header-anchor '></a>Définitions</h3><figure><table><thead><tr><th style='text-align:left;' ><u><strong>Ordinateur</strong></u></th></tr></thead><tbody><tr><td style='text-align:left;' >Machine électronique capable d’exécuter des instructions effectuant des opérations sur des nombres</td></tr></tbody></table></figure><h4><a name='header-n11' class='md-header-anchor '></a>Structure</h4><ul><li><p><strong>Processeur</strong></p><ul><li>Unité capable d’effectuer des calculs</li></ul></li><li><p><strong>Mémoire vive</strong></p><ul><li>Matériel stockant des données accessibles par le processeur</li></ul></li><li><p><strong>Périphériques</strong></p><ul><li>Matériel fournissant ou stockant des données secondaires</li></ul></li><li><p><strong>Bus de communication</strong></p><ul><li>Bus interconnectant le processeur, la mémoire vive et les périphériques</li></ul></li></ul><hr /><h3><a name='header-n34' class='md-header-anchor '></a>Mémoire vive</h3><figure><table><thead><tr><th style='text-align:left;' ><strong><u>Mémoire vive</u></strong></th></tr></thead><tbody><tr><td style='text-align:left;' >Ensemble de cases numérotées contenant des octets</td></tr></tbody></table></figure><hr /><h3><a name='header-n41' class='md-header-anchor '></a>Processeur</h3><figure><table><thead><tr><th style='text-align:left;' ><strong><u>Processeur</u></strong></th></tr></thead><tbody><tr><td style='text-align:left;' >Exécute des instructions qui peuvent :<br />   &bull;  Effectuer des calculs<br />   &bull;  Accéder à la mémoire<br />   &bull;  Accéder aux autres périphériques<br />   &bull;  Sélectionner l’instruction suivante à exécuter</td></tr></tbody></table></figure><p>Le processeur identifie une instruction par un numéro</p><p>Il possède des variables internes appelées registres</p><ul><li><code>PC</code> (<em>Program Counter</em>) : adresse de l’instruction suivante</li></ul><hr /><h3><a name='header-n53' class='md-header-anchor '></a>Logiciels</h3><figure><table><thead><tr><th style='text-align:left;' ><strong><u>Logiciel</u></strong></th></tr></thead><tbody><tr><td style='text-align:left;' >Ensemble de fichiers<br />   &bull;  Fichiers ressources : images, vidéos, musiques...<br />   &bull;  Fichiers programmes : contiennent des données et des instructions destinées à être exécutées par un ordinateur</td></tr></tbody></table></figure><ul><li><p><strong>Programme binaire</strong></p><ul><li>Ensemble d’instructions exécutables par le processeur + des données manipulées par ces opérations</li></ul></li><li><p><strong>Programme source</strong></p><ul><li>Ensemble des opérations abstraites décrivant les actions à effectuer + des données manipulées par ces opérations</li></ul></li></ul><hr /><h3><a name='header-n71' class='md-header-anchor '></a>Processus et système</h3><figure><table><thead><tr><th style='text-align:left;' ><u><strong>Processus</strong></u></th></tr></thead><tbody><tr><td style='text-align:left;' >Programme en cours d’exécutions</td></tr></tbody></table></figure><ul><li>Contient les opérations du programme</li><li>Contient son état à un moment donné</li></ul><figure><table><thead><tr><th style='text-align:left;' ><strong><u>Système d’exploitation</u></strong></th></tr></thead><tbody><tr><td style='text-align:left;' >Logiciel particulier qui gère les processus</td></tr></tbody></table></figure><ul><li>Démarre les processus</li><li>Arrête les processus</li><li>Offre une vision de haut niveau du matériel aux processus</li><li>Offre des mécanismes de communication inter-processus</li></ul><p>&nbsp;</p><hr /><table width="90%">
+<div  id='write'  class = 'is-node'><h5 style="text-align: center"> SYSTEME D'EXPLOITATION </h5><hr /><h2><a name='header-n3' class='md-header-anchor '></a><strong>Signaux</strong></h2><hr /><h3><a name='header-n5' class='md-header-anchor '></a>Définition</h3><figure><table><thead><tr><th style='text-align:left;' ><strong><u>Signal</u></strong></th></tr></thead><tbody><tr><td style='text-align:left;' >Mécanisme de communication inter-processus</td></tr></tbody></table></figure><ul><li><p>Message : entier entre 1 et 31</p><ul><li><code>SIGHUP</code> (1) : fermeture terminal ⇒ à tous les processus attachés</li><li><code>SIGINT</code> (2)<span>	</span>: <code>control-c</code> dans un terminal ⇒ au processus premier plan<span>	</span></li><li><code>SIGQUIT</code> (3) : souvent <code>control-d</code>, généré par un processus à lui-même</li><li><code>SIGILL</code> (4) : instruction illégale (envoyé par le noyau)</li><li><code>SIGFPE</code> (8) : division par 0 (envoyé par le noyau)</li><li><code>SIGKILL</code> (9) : pour terminer un processus<span>	</span></li><li><code>SIGSEGV</code> (11) : accès mémoire invalide (envoyé par le noyau)</li><li><code>SIGTERM</code> (15) : argument par défaut de la commande kill</li><li><code>SIGCHLD</code> (17) : envoyé par le noyau lors de la mort d’un fils</li><li><code>SIGSTP</code> (18) : <code>control-z</code> : suspend un processus</li><li><code>SIGCONT</code> (19) : redémarre un processus suspendu</li><li><code>SIGUSR1</code> (30) : libre, sémantique définie pour chaque processus</li><li><code>SIGUSR2</code> (31) : libre, sémantique définie pour chaque processus</li></ul></li><li><p>Réception des messages dans un ordre aléatoire</p></li><li><p>Perte possible en cas d’envoi multiple du même numéro de signal</p></li><li><p><code>trap</code> : effectue une commande à la réception d’un signal</p><pre spellcheck="false" class="md-fences md-end-block md-fences-with-lineno ty-contain-cm modeLoaded" lang="sh"><div class="CodeMirror cm-s-inner CodeMirror-wrap" lang="sh"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 8px; left: 32px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 28px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre><span>xxxxxxxxxx</span></pre><div class="CodeMirror-linenumber CodeMirror-gutter-elt"><div>1</div></div></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation"><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: -28px; width: 28px;"></div><div class="CodeMirror-gutter-wrapper CodeMirror-activeline-gutter" style="left: -28px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt CodeMirror-linenumber-show" style="left: 0px; width: 20px;">1</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">trap expression sig</span></pre></div></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 24px;"></div><div class="CodeMirror-gutters" style="height: 24px;"><div class="CodeMirror-gutter CodeMirror-linenumbers" style="width: 28px;"></div></div></div></div></pre></li><li><p><code>kill</code> : envoie un signal à un certain PID</p><pre spellcheck="false" class="md-fences md-end-block md-fences-with-lineno ty-contain-cm modeLoaded" lang="sh"><div class="CodeMirror cm-s-inner CodeMirror-wrap" lang="sh"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 8px; left: 32px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 28px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre><span>xxxxxxxxxx</span></pre><div class="CodeMirror-linenumber CodeMirror-gutter-elt"><div>1</div></div></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation"><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: -28px; width: 28px;"></div><div class="CodeMirror-gutter-wrapper CodeMirror-activeline-gutter" style="left: -28px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt CodeMirror-linenumber-show" style="left: 0px; width: 20px;">1</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-builtin">kill</span> <span class="cm-attribute">-sig</span> pid</span></pre></div></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 24px;"></div><div class="CodeMirror-gutters" style="height: 24px;"><div class="CodeMirror-gutter CodeMirror-linenumbers" style="width: 28px;"></div></div></div></div></pre></li></ul><hr /><table width="90%">
 <tbody><tr>
 <td style="width: 30%; text-align: left; background:transparent; border:0;">Informatique</td>
 <td style="width: 30%; text-align: center; background:transparent; border:0;">Alexis Bagarre</td>
 <td style="width: 30%; text-align: right; background:transparent; border:0;">T1 - 2018 / 2019</td>
 </tr>
-</tbody></table><p>&nbsp;</p></div>
+</tbody></table></div>
 </body>
 </html>
