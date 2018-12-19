@@ -17,8 +17,8 @@
     - Verrouille avant d’entrer en section critique
     - Déverrouille en sortant
   - Opérations atomiques
-    - `P.sh` :  attend que le verrou soit déverrouillé pour le verrouiller
-    - `V.sh` : déverrouille le verrou
+    - `P.sh` :  attend que le verrou soit déverrouillé pour le verrouiller (“**P**uis-je”)
+    - `V.sh` : déverrouille le verrou (“**V**as-y”)
 
 
 

@@ -55,7 +55,7 @@
   - Reprendre le processus en avant-plan : `fg`
   - Reprendre le processus en arrière-plan : `bg`
 - `kill` : envoie un signal au processus
-  - `kill -9` pour tuer le processus
+  - `kill -9` pour tuer le processus (`ctrl+c` pour tuer le processus en avant-plan)
 - `wait` : attend la fin de tous les fils
   - Avec argument : attend la fin des processus passés en argument
 
@@ -64,8 +64,7 @@
 ### Variables et processus
 
 - **Variable d’environnement** : variable exportée
-
-
+  - Ex : `HOME`, `PATH`, `PS1`...
 
 
 

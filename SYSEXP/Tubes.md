@@ -25,7 +25,7 @@
 
 - `mkfifo chemin` : créer un tube, visible avec `ls`
 
-- ```sh
+  ```sh
   echo message >chemin # écrit dans le tube
   read message <chemin # lit dans le tube
   rm chemin # supprime le tube
