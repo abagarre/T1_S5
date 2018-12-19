@@ -38,9 +38,17 @@
 
   [Commandes bash](./SYSEXP/HTML/CommandesBash.html)
 
+  [Système de fichiers](./SYSEXP/HTML/Fichiers.html)
+
   [Flux](./SYSEXP/HTML/Flux.html)
 
   [Processus](./SYSEXP/HTML/Processus.html)
+
+  [Signaux](./SYSEXP/HTML/Signaux.html)
+
+  [Tubes](./SYSEXP/HTML/Tubes.html)
+
+  [Concurrence](./SYSEXP/HTML/Concurrence.html)
 
 - ### Techniques d’optimisation
 
