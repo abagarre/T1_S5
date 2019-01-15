@@ -2,13 +2,9 @@
 
 ------
 
-## **Langage de description algorithmique**
+###PGCD et Tris
 
-------
-
-###Algorithmes élémentaires
-
-- #####PGCD :
+- #####PGCD
 
   ```pseudocode
   pgcd(a,b):
@@ -99,6 +95,139 @@
   		triFusion(T,q+1,r)
   		fusion(T,p,q,r)
   	end if
+  ```
+
+  *Complexité* : $\text O(\text n \log \text n)$
+
+---
+
+###Recherche
+
+- ##### Recherche récursive dans un tableau trié
+
+  ```pseudocode
+  chercher(T,x,i,j):
+  	if i=j then
+  		if T[i]=x then
+  			return i
+  		else
+  			return -1
+  		end if
+  	end if
+  	m ⇽ int((i+j)/2)
+  	if x <= T[m] then
+  		return chercher(T,x,i,m)
+  	else
+  		return chercher(T,x,m+1,j)
+  	end if
+  ```
+
+  *Complexité* : $\text O(\log \text n)$
+
+---
+
+### Graphes
+
+- ##### Parcours en largeur
+
+  ```pseudocode
+  parcoursEnLargeur(G=(V,E),s):	/* Sommets V et Arrêtes E ; sommet s */
+  	dist ⇽ CréerTableau(longueur(V))
+  	Q ⇽ CréerFileVide()
+  	for u in V do
+  		dist[u] ⇽ +infini
+  	end for
+  	dist[s] ⇽ 0
+  	Enfiler(Q,s)
+  	while EstNonVide(Q) do
+  		u ⇽ Défiler(Q)
+  		for (u,v) in E do	/* pour chaque arrête */
+  			if dist[v] = +infini then
+  				dist[v] ⇽ dist[u] + 1
+  				Enfiler(Q,v)
+  			end if
+  		end for
+  	end while
+  	return dist
+  ```
+
+  *Complexité* : $\text O(|\text V|+|\text E|)$
+
+- ##### Algorithme de Dijkstra
+
+  ```pseudocode
+  dijkstra(G=(V,E),l,s):	/* G : graphe ; l : pondération des arrêtes ; s : sommet */ 
+  	H ⇽ CréerFilePriorité()
+  	for u in V do	/* Pour chaque sommet du graphe */
+  		dist[u] ⇽ +infini
+  		prev[u] ⇽ null
+  		Insérer(H,u,dist[u])	/* H stock tous les sommets avec leurs poids */
+  	end for
+  	AugmenterPriorité(H,s,0)	/* Poids  sur le sommet de départ */
+  	while EstNonVide(H) do	/* Tant qu'on a pas visité tous les sommets */
+  		u ⇽ SupprimerMin(H)	/* u = min(H) = premier plus court chemin depuis s */
+  		for (u,v) in E in  do	/* pour chaque arrête (u,v) */
+  			if dist[v] > dist[u] + l(u,v) then	/* Si dist(s->...->v) > dist(s->u->v) */
+  				dist[v] ⇽ dist[u] + l(u,v)
+  				prev[v] ⇽ u
+  				AugmenterPriorité(H,v,dist[v])
+  			end if
+  		end for
+  	end while
+  	return dist
+  ```
+
+  *Complexité* : $\text O\left((|\text V|+|\text E|)\log |\text V|\right)$
+
+- ##### Insertio
+
+  ```pseudocode
+  insertion(T,z):
+  	y ⇽ nil(T)
+  	x ⇽ racine(T)
+  	while x != nit(T) do
+  		y ⇽ x
+  		if clé(z) < clé(x) then
+  			x ⇽ gauche(x)
+  		else
+  			x ⇽ droite(x)
+  		end if
+  	end while
+  	p(z) ⇽ y
+  	if y = nil(t) then
+  		racine(T) ⇽ z
+  	else if clé(z) < clé(y) then
+  		gauche(y) ⇽ z
+  	else
+  		droite(y) ⇽ z
+  	end if
+  	gauche(z) ⇽ nit(T)
+  	couleur(z) ⇽ rouge
+  	InsérerCorrection(T,z)
+  	
+  	
+  InsérerCorrection(T,z):
+  	while couleur(p(z)) = rouge do
+  		if p(z) = gauche(p(p(z))) then
+  			y ⇽ droite(p(p(z)))
+  			if couleur(y) = rouge then
+  				couleur(p(z)) ⇽ noir
+  				couleur(y) ⇽ noir
+  				couleur(p(p(z))) ⇽ rouge
+  				z ⇽ p(p(z))
+  			else
+  				if z = droite(p(z)) then
+  					z ⇽ p(z)
+  				end if
+  				couleur(p(z)) ⇽ noir
+  				couleir(p(p(z))) ⇽ rouge
+  				RotationDroite(T,p(p(z)))
+  			end if
+  		else
+  			/* Idem avec permutation de droite et gauche */
+  		end if
+  	end while
+  	couleur(racine(T)) ⇽ noir
   ```
 
 ------
