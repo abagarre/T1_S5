@@ -1,14 +1,14 @@
 @font-face {
-  font-family: 'cmu';
+  font-family: 'tex';
   font-style: normal;
   font-weight: 400;
-  src: local('cmu'), local('cmu-Regular'), url(ash/cmunrm-webfont.woff) format('woff');
+  src: local('tex'), local('tex-Regular'), url(https://bglx.github.io/T1_S5/cmunrm-webfont.woff) format('woff');
 }
 
 
 html, body {
-    background: #666;
-    color: #fff;
+    background: #666666;
+    color: #ffffff;
     font-family: 'tex', serif;
 	font-size: 18px;
 }
